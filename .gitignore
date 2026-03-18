@@ -1,0 +1,51 @@
+# Data — never commit raw datasets
+data/hc18/
+# Block raw data images
+data/**/*.png
+
+# Allow result figures
+!results/figures/*.png
+*.jpg
+*.jpeg
+*.avi
+*.mp4
+*.npz
+*.npy
+*.csv
+!results/metrics.csv
+
+# Model weights
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.weights
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Notebooks — outputs only, keep source
+.ipynb_checkpoints/
+
+# Environments
+.env
+venv/
+env/
+.venv/
+
+# Kaggle
+/kaggle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
