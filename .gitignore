@@ -1,10 +1,6 @@
 # Data — never commit raw datasets
 data/hc18/
-# Block raw data images
-data/**/*.png
-
-# Allow result figures
-!results/figures/*.png
+*.png
 *.jpg
 *.jpeg
 *.avi
