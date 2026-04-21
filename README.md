@@ -5,6 +5,14 @@
 
 ---
 
+> **This work has been extended into a full clinical AI pipeline.**
+> After completing this course project, I continued development independently — building a Residual U-Net with deep supervision, a Temporal Attention Module, and structural pruning, achieving **97.75% Dice / 1.65mm MAE** (vs 86.17% / 17.25mm here).
+> The improved system is deployed on HuggingFace Spaces.
+>
+> ➡️ **See the successor repo: [fetal-head-clinical-ai](https://github.com/TarunSadarla2606/fetal-head-clinical-ai)**
+
+---
+
 ## Overview
 
 Manual fetal head circumference (HC) measurement from 2D ultrasound is subjective and prone to inter-observer variability. This project builds an end-to-end pipeline that extends **static-frame segmentation to temporally-aware cine-loop analysis**, improving measurement consistency across sequential ultrasound frames.
